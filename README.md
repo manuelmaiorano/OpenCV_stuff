@@ -3,5 +3,5 @@
 Experiments with opencv in Python.
 
 ### Draw frame on a checkboard reference
-![alt text](img/draw3d.jpg)
+![alt text](img/draw_3d.jpg)
 
