@@ -100,6 +100,6 @@ class App:
         cv.destroyAllWindows()
 
 if __name__ == '__main__':
-    image = cv.imread('.\img\\for_grab.jpg')
+    image = cv.imread('.\img\\wmn.jpeg')
 
     App(image).run()

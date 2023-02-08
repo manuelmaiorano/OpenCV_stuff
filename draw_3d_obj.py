@@ -107,6 +107,8 @@ class CameraDraw3D:
             cv.imshow('draw3d', frame)
 
             k = cv.waitKey(60) & 0xFF
+            if k == ord('s'):
+                cv.imwrite('.\img\draw_3d.jpg', frame)
             if k == 27: break
 
         cv.destroyAllWindows()
